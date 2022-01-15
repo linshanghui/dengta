@@ -1,0 +1,125 @@
+<!--
+*盗我源码不留版权信息，更告知我的木有小JJ,
+*2621133262@qq.com
+*自己改了下，音乐，图片，文字。
+*自用单页
+*作者 阿宅
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<title>阿宅-灯塔 方向</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="/favicon.ico"/>
+	<script type="text/javascript" src="https://at.alicdn.com/t/font_2962400_gpo2ebvd428.js"></script>
+
+</head>
+</style>
+<body>
+		<div class="qqimg" id="a" onclick="a();" title="点击头像有惊喜！">
+		<img src="http://q1.qlogo.cn/g?b=qq&nk=240233869&s=640">
+	</div>
+	<div class="solid-ht"></div>
+	<div class="solid-wh"></div>
+	<div class="title">
+		<i><h1>阿宅灯塔</h1></i>
+		</div>
+		<div class="jbs">
+		<p><div id="chakhsu"  style="text-align:center;color:green"></div>
+<script type="text/javascript" src="https://www.iowen.cn/jitang/api/?format=js&charset=utf-8"></script>
+<div id="hitokoto"><script>hitokoto()</script></div>
+	</div>
+	
+	
+	
+	<div class="solid-wh"></div>
+	<div class="solid-ht"></div>
+	<div class="nav">
+		<ul>
+			<li><a href="http://zm2.我爱你" target="_blank"><i class="fa fa-heartbeat"></i>纪念我们</a></li>
+                   	 		          	        <li><a href="http://zws.fun/" target="_blank"><i class="fa fa-bicycle"></i>我的愿望</a></li>
+                   <li><a href="http://51.zws.fun/"target="_blank"><i class="fa fa-comments-o"></i>五合一码</a></li>
+                   <li><a href="http://djt.zws.fun/" target="_blank"><i class="fa fa-odnoklassniki"></i>心灵鸡汤</a></li>
+	                                                 	<li><a href="http://tg.zws.fun/" target="_blank"><i class="fa fa-drupal"></i>  舔狗日记 </a></li>
+								<li><a href="http://idc.zws.fun/" target="_blank"><i class="fa fa-bullhorn"></i>免费主机</a></li>
+		</ul>
+	</div>
+	<div class="contact">
+		<a href="JavaScript:;" id="ewm">
+			<svg class="icon" aria-hidden="true">
+ 				<use xlink:href="#icon-QQ"></use>
+          	</svg><span> Q Q支付</span>
+        </a>
+		<a href="JavaScript:;" id="ewm">
+			<svg class="icon" aria-hidden="true">
+ 				<use xlink:href="#icon-zhifubao
+"></use>
+          	</svg><span> 支付宝</span>
+        </a>
+        <a href="JavaScript:;" id="ewm">
+			<svg class="icon" aria-hidden="true">
+ 				<use xlink:href="#icon-weixinzhifu
+"></use>
+          	</svg><span> 微信支付</span>
+        </a>
+	</div>
+    <div class="zs-qq">
+        <p>请扫描以下二维码向我付款</p>
+        <img src=""/>
+        <p>非常感谢你的每一赞助</p>
+        <p>你们的每一笔赞助,我都会记在心里</p>
+        <button id="btn">确定</button>
+    </div>
+
+<audio autoplay="false" loop="false" id="music">
+<source src="music.mp3" type="audio/mpeg">
+</audio>
+<script>   
+   function a(){
+     var audio = document.getElementById('music'); 
+     if(audio.paused){                 
+         audio.play();//audio.play();// 播放  
+     }
+     else{
+          audio.pause();// 暂停
+     } 
+   }
+</script>
+    <script src="http://lib.baomitu.com/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+       $(function (){
+         
+          $(".contact a").eq(0).click(function (){//qq二维码
+             $(".zs-qq img").attr("src","./images/qqzf.png");
+             $(".zs-qq").show();
+          })
+          $(".contact a").eq(1).click(function (){//支付宝二维码
+             $(".zs-qq img").attr("src","./images/zfbzf.png");
+             $(".zs-qq").show();
+          })
+          $(".contact a").eq(2).click(function (){//微信二维码
+             $(".zs-qq img").attr("src","./images/wxzf.png");
+             $(".zs-qq").show();
+          })
+          $("#btn").click(function (){
+             $(".zs-qq").hide();
+          })
+       })
+       
+    </script>
+    <iframe src="https://kaiyuan.github.io/sponsor-page/drinks/" style="overflow-x:hidden;overflow-y:hidden; border:0xp none #fff; min-height:240px; width:100%;"  frameborder="0" scrolling="no"></iframe>
+   <!-- xiaokeai.gif -->
+<div id="cc-myssl-id" style="position: fixed;right: 0;bottom: 0;width: 60px;height: 70px;z-index: 99;">
+	<div  id="a" onclick="a();" title="点击头像有惊喜！">
+<a href="#"><img src="./images/xiaokeai.gif" alt="" style=" margin-top:-10px;width:100%;height:100%"></a>
+</div>
+  <!-- iloli.gif -->
+<div id="cc-myssl-id" style="position: fixed;left:0;bottom: 0;width: 60px;height: 73px;z-index: 99;">
+	<div  id="a" onclick="a();" title="点击头像有惊喜！">
+<a href="#"><img src="./images/iloli.gif" alt="" style=" margin-top:-15px;width:100%;height:100%"></a>
+</div>
+</body>
+</html>
